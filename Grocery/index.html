@@ -1,0 +1,1209 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+     <!-- owl carousel CDN  -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+        
+
+
+  <!-- owl carousel offiline  -->
+    <!-- <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"> -->
+</head>
+
+<body class="ubuntu-regular">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-1">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+                <h1 class="text-g2" style="font-family: cursive;">Grosfit</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="./about.html">About</a>
+                    </li>
+                  
+                    <li class="nav-item mx-2 dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Product
+                        </a>
+                        <ul class="dropdown-menu">
+                            <div class="drop-down-box d-flex">
+                                <ul class="m-0 p-0">
+                                    <li><a class="dropdown-item" href="./data.html"><i class="fa-solid fa-caret-right"></i> Fruits</a></li>
+                                    <li><a class="dropdown-item" href="./data.html"><i class="fa-solid fa-caret-right"></i> Vegetables</a></li>
+                                    <li><a class="dropdown-item" href="./data.html"><i class="fa-solid fa-caret-right"></i> Dairy Products</a></li>
+                                    <li><a class="dropdown-item" href="./data.html"><i class="fa-solid fa-caret-right"></i> Bakery</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-caret-right"></i> Beverages</a></li>
+                                </ul>
+                                <ul class="m-0 p-0">
+                                    <li><a class="dropdown-item" href="./data.html"><i class="fa-solid fa-caret-right"></i> Snacks</a></li>
+                                    <li><a class="dropdown-item" href="./data.html"><i class="fa-solid fa-caret-right"></i> Frozen Foods</a></li>
+                                    <li><a class="dropdown-item" href="./data.html"><i class="fa-solid fa-caret-right"></i> Canned Goods</a></li>
+                                    <li><a class="dropdown-item" href="./data.html"><i class="fa-solid fa-caret-right"></i> Household Items</a></li>
+                                    <li><a class="dropdown-item" href="./data.html"><i class="fa-solid fa-caret-right"></i> Personal Care</a></li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" aria-disabled="true" href="./blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" aria-disabled="true" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+
+
+                <div class="ms-auto login">
+
+                    <a href="./userlogin.html"> <button><i class="fa-solid fa-user"></i> Login</button></a>
+                    <a href="./add-to-card-page.html"><button><i class="fa-solid fa-cart-shopping"></i> Cart</button></a>
+         
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assets/img/poster/2.png" class="d-block w-100" alt="...">
+                <div class="main-poster-data">
+                    <h1>Discover Fresh Groceries at Unbeatable Prices!</h1>
+                    <h6>Top-Quality Produce Delivered Daily - Shop with Us Today!</h6>
+                    <a href="./data.html">Shop Now</a>
+                </div>
+            </div>
+            <div class="carousel-item ">
+                <img src="./assets/img/poster/1.png" class="d-block w-100" alt="...">
+                <div class="main-poster-data">
+                    <h1 class="btn-shine">Get Fresh Groceries from Our Shop!</h1>
+                    <h6>Quality Produce, Exceptional Prices!</h6>
+                    <a href="./data.html">Shop Now</a>
+                </div>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <section>
+
+        <div class="container">
+            <div class="heading-container mt-5 my-3">
+                <div class="box-title-heading">
+                    <h4 class="">Product by Categories</h4>
+
+
+                </div>
+                <h6><a href="#">See All</a></h6>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="owl-carousel owl-theme carousel-1">
+                        <div class="item">
+                            <div class="category-box" style="background-color:pink;">
+                                <ul class="m-0 p-0">
+                                    <h3>Dairy Product</h3>
+                                    <p>Milk, Bread & Other Dairy Products</p>
+                                    <a class="cat-link" href="./data.html">Order Now</a>
+                                </ul>
+                                <div class="category-img">
+                                    <img src="./assets/img/1-removebg-preview 2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="category-box" style="background-color:salmon;">
+                                <ul class="m-0 p-0">
+                                    <h3>Food Product</h3>
+                                    <p>Rice, Flour & Other Products</p>
+                                    <a class="cat-link" href="./data.html">Order Now</a>
+                                </ul>
+                                <div class="category-img">
+                                    <img src="./assets/img/2-removebg-preview.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="category-box" style="background-color:darkmagenta;">
+                                <ul class="m-0 p-0 text-white">
+                                    <h3>Oil & Masala</h3>
+                                    <p>Oil, Masala & Other Products</p>
+                                    <a class="cat-link" href="./data.html">Order Now</a>
+                                </ul>
+                                <div class="category-img">
+                                    <img src="./assets/img/3-removebg-preview.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="category-box" style="background-color:violet;">
+                                <ul class="m-0 p-0">
+                                    <h3>Snacks</h3>
+                                    <p>Chips, Nuts & Other Snacks</p>
+                                    <a class="cat-link" href="./data.html">Order Now</a>
+                                </ul>
+                                <div class="category-img">
+                                    <img src="./assets/img/1-removebg-preview 2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="category-box" style="background-color:tomato;">
+                                <ul class="m-0 p-0">
+                                    <h3>Beverages</h3>
+                                    <p>Juices, Sodas & Other Beverages</p>
+                                    <a class="cat-link" href="./data.html">Order Now</a>
+                                </ul>
+                                <div class="category-img">
+                                    <img src="./assets/img/3-removebg-preview.png" alt="" class="w-100">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="category-box" style="background-color:salmon;">
+                                <ul class="m-0 p-0">
+                                    <h3>Frozen Foods</h3>
+                                    <p>Ice Creams, Frozen Vegetables & More</p>
+                                    <a class="cat-link" href="./data.html">Order Now</a>
+                                </ul>
+                                <div class="category-img">
+                                    <img src="./assets/img/2-removebg-preview.png" alt="" class="w-100">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="product-container">
+                    <div class="product-box">
+                        <a href="./product-detials.html">
+                            <div class="product-img">
+                                <img src="./assets/img/product-img/amul.jpeg" alt="Apple 1kg">
+                            </div>
+                            <p>Amul Milk</p>
+                        </a>
+                    </div>
+                    <div class="product-box">
+                        <a href="./product-detials.html">
+                            <div class="product-img">
+                                <img src="./assets/img/product-img/bread.jpeg" alt="">
+                            </div>
+                            <p>Bread</p>
+                        </a>
+                    </div>
+                    <div class="product-box">
+                        <a href="./product-detials.html">
+                            <div class="product-img">
+                                <img src="./assets/img/product-img/butter.jpeg" alt="">
+                            </div>
+                            <p>Amul Butter</p>
+                        </a>
+                    </div>
+                    <div class="product-box">
+                        <a href="./product-detials.html">
+                            <div class="product-img">
+                                <img src="./assets/img/product-img/egg.jpeg" alt="">
+                            </div>
+                            <p>Egg</p>
+                        </a>
+                    </div>
+                    <div class="product-box">
+                        <a href="./product-detials.html">
+                            <div class="product-img">
+                                <img src="./assets/img/product-img/glu.jpeg" alt="">
+                            </div>
+                            <p>
+                                Glucon-D</p>
+                        </a>
+                    </div>
+                    <div class="product-box">
+                        <a href="./product-detials.html">
+                            <div class="product-img">
+                                <img src="./assets/img/product-img/mazza.jpeg" alt="">
+                            </div>
+                            <p>Mazza</p>
+                        </a>
+                    </div>
+                    <div class="product-box">
+                        <a href="./product-detials.html">
+                            <div class="product-img">
+                                <img src="./assets/img/product-img/mix.jpeg" alt="">
+                            </div>
+                            <p>Mixture </p>
+                        </a>
+                    </div>
+                    <div class="product-box">
+                        <a href="./product-detials.html">
+                            <div class="product-img">
+                                <img src="./assets/img/product-img/msat.jpeg" alt="">
+                            </div>
+                            <p>Amul Masti</p>
+                        </a>
+                    </div>
+                    <div class="product-box">
+                        <a href="./product-detials.html">
+                            <div class="product-img">
+                                <img src="./assets/img/product-img/nam.jpeg" alt="">
+                            </div>
+                            <p>Allu Bhujiya</p>
+                        </a>
+                    </div>
+
+
+                    <div class="product-box">
+                        <a href="./product-detials.html">
+                            <div class="product-img">
+                                <img src="./assets/img/product-img/red.jpeg" alt="">
+                            </div>
+                            <p>Red Bull</p>
+                        </a>
+                    </div>
+                    <div class="product-box">
+                        <a href="./product-detials.html">
+                            <div class="product-img">
+                                <img src="./assets/img/product-img/roawaza.jpeg" alt="">
+                            </div>
+                            <p>RoohAfza</p>
+                        </a>
+                    </div>
+                    <div class="product-box">
+                        <a href="./product-detials.html">
+                            <div class="product-img">
+                                <img src="./assets/img/product-img/sting.jpeg" alt="">
+                            </div>
+                            <p>String</p>
+                        </a>
+                    </div>
+                    <div class="product-box">
+                        <a href="./product-detials.html">
+                            <div class="product-img">
+                                <img src="./assets/img/product-img/water.jpeg" alt="">
+                            </div>
+                            <p>Water 5ltr</p>
+                        </a>
+                    </div>
+                    <div class="product-box">
+                        <a href="./product-detials.html">
+                            <div class="product-img">
+                                <img src="./assets/img/product-img/red.jpeg" alt="">
+                            </div>
+                            <p>Red</p>
+                        </a>
+                    </div>
+                    <div class="product-box">
+                        <a href="./product-detials.html">
+                            <div class="product-img">
+                                <img src="./assets/img/product-img/bre.jpeg" alt="">
+                            </div>
+                            <p>Bread</p>
+                        </a>
+                    </div>
+                    <div class="product-box">
+                        <a href="./product-detials.html">
+                            <div class="product-img">
+                                <img src="./assets/img/product-img/amul.jpeg" alt="">
+                            </div>
+                            <p>Amul Milk</p>
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+
+        <div class="container">
+            <div class="row">
+                <div class="heading-container mt-5 my-3">
+                    <div class="box-title-heading">
+                        <h4 class="">Grocery Items</h4>
+
+
+                    </div>
+                    <h6><a href="#">See All</a></h6>
+                </div>
+                <div class="col-lg-12">
+                    <div class="owl-carousel owl-theme carousel-2">
+                        <div class="item">
+                            <div class="product-detils-box">
+                                <div class="pro-details-img">
+                                    <img src="./assets/img/product-img/amul.jpeg" alt="Apple 1kg">
+                                </div>
+                                <div class="pro-data">
+                                    <p>Amul Milk 1.5ltr</p>
+                                    <span>1.5 L</span>
+                                    <h6>Rs.80</h6>
+                                    <div class="button-box">
+                                        <button class="ord">Order Now</button>
+                                        <div class="addtokart2" style="display: none;">
+                                            <div class="qty2">
+                                                <button class="decrement">-</button>
+                                                <p class="quantity">1</p>
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-detils-box">
+                                <div class="pro-details-img">
+                                    <img src="./assets/img/product-img/atta.jpeg" alt="Atta (Wheat Flour) 1kg">
+                                </div>
+                                <div class="pro-data">
+                                    <p>Atta (Wheat Flour) 1kg</p>
+                                    <span>1 kg</span>
+                                    <h6>Rs.50</h6>
+                                    <div class="button-box">
+                                        <button class="ord">Order Now</button>
+                                        <div class="addtokart2" style="display: none;">
+                                            <div class="qty2">
+                                                <button class="decrement">-</button>
+                                                <p class="quantity">1</p>
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-detils-box">
+                                <div class="pro-details-img">
+                                    <img src="./assets/img/product-img/rice.jpg" alt="Basmati Rice 5kg">
+                                </div>
+                                <div class="pro-data">
+                                    <p>Basmati Rice 5kg</p>
+                                    <span>5 kg</span>
+                                    <h6>Rs.250</h6>
+                                    <div class="button-box">
+                                        <button class="ord">Order Now</button>
+                                        <div class="addtokart2" style="display: none;">
+                                            <div class="qty2">
+                                                <button class="decrement">-</button>
+                                                <p class="quantity">1</p>
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-detils-box">
+                                <div class="pro-details-img">
+                                    <img src="./assets/img/product-img/sugar.jpg" alt="Sugar 1kg">
+                                </div>
+                                <div class="pro-data">
+                                    <p>Sugar 1kg</p>
+                                    <span>1 kg</span>
+                                    <h6>Rs.45</h6>
+                                    <div class="button-box">
+                                        <button class="ord">Order Now</button>
+                                        <div class="addtokart2" style="display: none;">
+                                            <div class="qty2">
+                                                <button class="decrement">-</button>
+                                                <p class="quantity">1</p>
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-detils-box">
+                                <div class="pro-details-img">
+                                    <img src="./assets/img/product-img/oil.jpg" alt="Cooking Oil 1ltr">
+                                </div>
+                                <div class="pro-data">
+                                    <p>Cooking Oil 1ltr</p>
+                                    <span>1 L</span>
+                                    <h6>Rs.120</h6>
+                                    <div class="button-box">
+                                        <button class="ord">Order Now</button>
+                                        <div class="addtokart2" style="display: none;">
+                                            <div class="qty2">
+                                                <button class="decrement">-</button>
+                                                <p class="quantity">1</p>
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-detils-box">
+                                <div class="pro-details-img">
+                                    <img src="./assets/img/product-img/biscuit.jpg" alt="Biscuits 200g">
+                                </div>
+                                <div class="pro-data">
+                                    <p>Biscuits 200g</p>
+                                    <span>200 g</span>
+                                    <h6>Rs.30</h6>
+                                    <div class="button-box">
+                                        <button class="ord">Order Now</button>
+                                        <div class="addtokart2" style="display: none;">
+                                            <div class="qty2">
+                                                <button class="decrement">-</button>
+                                                <p class="quantity">1</p>
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-detils-box">
+                                <div class="pro-details-img">
+                                    <img src="./assets/img/product-img/tea.jpg" alt="Tea 100g">
+                                </div>
+                                <div class="pro-data">
+                                    <p>Tea 100g</p>
+                                    <span>100 g</span>
+                                    <h6>Rs.60</h6>
+                                    <div class="button-box">
+                                        <button class="ord">Order Now</button>
+                                        <div class="addtokart2" style="display: none;">
+                                            <div class="qty2">
+                                                <button class="decrement">-</button>
+                                                <p class="quantity">1</p>
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section>
+
+        <div class="container">
+            <div class="row">
+                <div class="heading-container mt-5 my-3">
+                    <div class="box-title-heading">
+                        <h4 class="">Fruits</h4>
+
+
+                    </div>
+                    <h6><a href="#">See All</a></h6>
+                </div>
+                <div class="col-lg-12">
+                    <div class="owl-carousel owl-theme carousel-2">
+                        <div class="item">
+                            <div class="product-detils-box">
+                                <div class="pro-details-img">
+                                    <img src="./assets/img/product-img/apple.jpg" alt="Apple 1kg">
+                                </div>
+                                <div class="pro-data">
+                                    <p>Apple 1kg</p>
+                                    <span>1 kg</span>
+                                    <h6>Rs.150</h6>
+                                    <div class="button-box">
+                                        <button class="ord">Order Now</button>
+                                        <div class="addtokart2" style="display: none;">
+                                            <div class="qty2">
+                                                <button class="decrement">-</button>
+                                                <p class="quantity">1</p>
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-detils-box">
+                                <div class="pro-details-img">
+                                    <img src="./assets/img/product-img/banana.jpeg" alt="Banana 1kg">
+                                </div>
+                                <div class="pro-data">
+                                    <p>Banana 1kg</p>
+                                    <span>1 kg</span>
+                                    <h6>Rs.60</h6>
+                                    <div class="button-box">
+                                        <button class="ord">Order Now</button>
+                                        <div class="addtokart2" style="display: none;">
+                                            <div class="qty2">
+                                                <button class="decrement">-</button>
+                                                <p class="quantity">1</p>
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-detils-box">
+                                <div class="pro-details-img">
+                                    <img src="./assets/img/product-img/orange.jpeg" alt="Orange 1kg">
+                                </div>
+                                <div class="pro-data">
+                                    <p>Orange 1kg</p>
+                                    <span>1 kg</span>
+                                    <h6>Rs.120</h6>
+                                    <div class="button-box">
+                                        <button class="ord">Order Now</button>
+                                        <div class="addtokart2" style="display: none;">
+                                            <div class="qty2">
+                                                <button class="decrement">-</button>
+                                                <p class="quantity">1</p>
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-detils-box">
+                                <div class="pro-details-img">
+                                    <img src="./assets/img/product-img/grapes.jpg" alt="Grapes 500g">
+                                </div>
+                                <div class="pro-data">
+                                    <p>Grapes 500g</p>
+                                    <span>500 g</span>
+                                    <h6>Rs.80</h6>
+                                    <div class="button-box">
+                                        <button class="ord">Order Now</button>
+                                        <div class="addtokart2" style="display: none;">
+                                            <div class="qty2">
+                                                <button class="decrement">-</button>
+                                                <p class="quantity">1</p>
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-detils-box">
+                                <div class="pro-details-img">
+                                    <img src="./assets/img/product-img/mango.jpg" alt="Mango 1kg">
+                                </div>
+                                <div class="pro-data">
+                                    <p>Mango 1kg</p>
+                                    <span>1 kg</span>
+                                    <h6>Rs.200</h6>
+                                    <div class="button-box">
+                                        <button class="ord">Order Now</button>
+                                        <div class="addtokart2" style="display: none;">
+                                            <div class="qty2">
+                                                <button class="decrement">-</button>
+                                                <p class="quantity">1</p>
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-detils-box">
+                                <div class="pro-details-img">
+                                    <img src="./assets/img/product-img/kiwi.jpeg" alt="Kiwi 500g">
+                                </div>
+                                <div class="pro-data">
+                                    <p>Kiwi 500g</p>
+                                    <span>500 g</span>
+                                    <h6>Rs.150</h6>
+                                    <div class="button-box">
+                                        <button class="ord">Order Now</button>
+                                        <div class="addtokart2" style="display: none;">
+                                            <div class="qty2">
+                                                <button class="decrement">-</button>
+                                                <p class="quantity">1</p>
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-detils-box">
+                                <div class="pro-details-img">
+                                    <img src="./assets/img/product-img/lichi.jpeg" alt="Strawberry 250g">
+                                </div>
+                                <div class="pro-data">
+                                    <p>Strawberry 250g</p>
+                                    <span>250 g</span>
+                                    <h6>Rs.100</h6>
+                                    <div class="button-box">
+                                        <button class="ord">Order Now</button>
+                                        <div class="addtokart2" style="display: none;">
+                                            <div class="qty2">
+                                                <button class="decrement">-</button>
+                                                <p class="quantity">1</p>
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section>
+
+        <div class="container">
+            <div class="row">
+                <div class="heading-container mt-5 my-3">
+                    <div class="box-title-heading">
+                        <h4 class="">Vegetables</h4>
+
+
+                    </div>
+                    <h6><a href="#">See All</a></h6>
+                </div>
+                <div class="col-lg-12">
+                    <div class="owl-carousel owl-theme carousel-2">
+                        <div class="item">
+                            <div class="product-detils-box">
+                                <div class="pro-details-img">
+                                    <img src="./assets/img/product-img/carrot.jpg" alt="Carrot 1kg">
+                                </div>
+                                <div class="pro-data">
+                                    <p>Carrot 1kg</p>
+                                    <span>1 kg</span>
+                                    <h6>Rs.90</h6>
+                                    <div class="button-box">
+                                        <button class="ord">Order Now</button>
+                                        <div class="addtokart2" style="display: none;">
+                                            <div class="qty2">
+                                                <button class="decrement">-</button>
+                                                <p class="quantity">1</p>
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-detils-box">
+                                <div class="pro-details-img">
+                                    <img src="./assets/img/product-img/broccoli.jpg" alt="Broccoli 500g">
+                                </div>
+                                <div class="pro-data">
+                                    <p>Broccoli 500g</p>
+                                    <span>500 g</span>
+                                    <h6>Rs.120</h6>
+                                    <div class="button-box">
+                                        <button class="ord">Order Now</button>
+                                        <div class="addtokart2" style="display: none;">
+                                            <div class="qty2">
+                                                <button class="decrement">-</button>
+                                                <p class="quantity">1</p>
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-detils-box">
+                                <div class="pro-details-img">
+                                    <img src="./assets/img/product-img/patato.jpeg" alt="Potato 2kg">
+                                </div>
+                                <div class="pro-data">
+                                    <p>Potato 2kg</p>
+                                    <span>2 kg</span>
+                                    <h6>Rs.80</h6>
+                                    <div class="button-box">
+                                        <button class="ord">Order Now</button>
+                                        <div class="addtokart2" style="display: none;">
+                                            <div class="qty2">
+                                                <button class="decrement">-</button>
+                                                <p class="quantity">1</p>
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-detils-box">
+                                <div class="pro-details-img">
+                                    <img src="./assets/img/product-img/gobhi.jpeg" alt="Lettuce 1kg">
+                                </div>
+                                <div class="pro-data">
+                                    <p>Lettuce 1kg</p>
+                                    <span>1 kg</span>
+                                    <h6>Rs.110</h6>
+                                    <div class="button-box">
+                                        <button class="ord">Order Now</button>
+                                        <div class="addtokart2" style="display: none;">
+                                            <div class="qty2">
+                                                <button class="decrement">-</button>
+                                                <p class="quantity">1</p>
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-detils-box">
+                                <div class="pro-details-img">
+                                    <img src="./assets/img/product-img/cucum.jpeg" alt="Cucumber 500g">
+                                </div>
+                                <div class="pro-data">
+                                    <p>Cucumber 500g</p>
+                                    <span>500 g</span>
+                                    <h6>Rs.60</h6>
+                                    <div class="button-box">
+                                        <button class="ord">Order Now</button>
+                                        <div class="addtokart2" style="display: none;">
+                                            <div class="qty2">
+                                                <button class="decrement">-</button>
+                                                <p class="quantity">1</p>
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-detils-box">
+                                <div class="pro-details-img">
+                                    <img src="./assets/img/product-img/tamato.jpeg" alt="Tomato 1kg">
+                                </div>
+                                <div class="pro-data">
+                                    <p>Tomato 1kg</p>
+                                    <span>1 kg</span>
+                                    <h6>Rs.70</h6>
+                                    <div class="button-box">
+                                        <button class="ord">Order Now</button>
+                                        <div class="addtokart2" style="display: none;">
+                                            <div class="qty2">
+                                                <button class="decrement">-</button>
+                                                <p class="quantity">1</p>
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-detils-box">
+                                <div class="pro-details-img">
+                                    <img src="./assets/img/product-img/oniun.jpeg" alt="Onion 1kg">
+                                </div>
+                                <div class="pro-data">
+                                    <p>Onion 1kg</p>
+                                    <span>1 kg</span>
+                                    <h6>Rs.65</h6>
+                                    <div class="button-box">
+                                        <button class="ord">Order Now</button>
+                                        <div class="addtokart2" style="display: none;">
+                                            <div class="qty2">
+                                                <button class="decrement">-</button>
+                                                <p class="quantity">1</p>
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <section>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="poster">
+                        <div class="poster-img">
+                            <img src="./assets/img/2-removebg-preview.png" alt="">
+                            <img src="./assets/img/3-removebg-preview.png" alt="">
+                            <img src="./assets/img/1-removebg-preview 2.png" alt="">
+                        </div>
+                        <div class="poster-data">
+                            <h1 class="headline">Huge Summer Sale: 50% OFF Everything!</h1>
+                            <p class="subheadline">Savings Galore - Shop Today!</p>
+
+                            <a href="#">Order Now</a>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container py-5 article-container">
+            <div class="heading-container mt-5 my-3">
+                <div class="box-title-heading">
+                    <h4 class="">Blog</h4>
+
+
+                </div>
+                <h6><a href="#">See All</a></h6>
+            </div>
+            <div class="row align-items-center py-3">
+                <div class="col-lg-12">
+                    <div class="owl-carousel carousel-1 owl-theme">
+                        <div class="item p-2">
+                            <div class="article-box">
+                                <div class="article-img">
+                                    <img src="./assets/img/blog1.jpeg" alt="Client Photo">
+                                </div>
+
+                                <h4>Smart Inventory Management</h4>
+                                <p>"Implementing smart inventory management systems has reduced stock shortages and
+                                    overstock situations. It has streamlined our supply chain and improved customer
+                                    satisfaction." - Sarah Johnson, Store Manager</p>
+                                <a href="#">Explore</a>
+                                <div class="button-box2">
+                                    <p><i class="fa-solid fa-calendar-days"></i> 26,12,2002</p>
+                                    <p> <i class="fa-solid fa-user-tie"></i> by Amdin</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item p-2">
+                            <div class="article-box">
+                                <div class="article-img">
+                                    <img src="./assets/img/supply.jpeg" alt="Client Photo">
+                                </div>
+                                <h4>Automated Checkout Solutions</h4>
+                                <p>"Adopting automated checkout systems has sped up the checkout process and reduced
+                                    queue times. It has enhanced the shopping experience for our customers and increased
+                                    store efficiency." - David Lee, Operations Director</p>
+                                <a href="#">Explore</a>
+                                <div class="button-box2">
+                                    <p><i class="fa-solid fa-calendar-days"></i> 26,12,2002</p>
+                                    <p> <i class="fa-solid fa-user-tie"></i> by Amdin</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item p-2">
+                            <div class="article-box">
+                                <div class="article-img">
+                                    <img src="./assets/img/machine.jpeg" alt="Client Photo">
+                                </div>
+                                <h4>Personalized Customer Promotions</h4>
+                                <p>"Leveraging customer data for personalized promotions has boosted sales and customer
+                                    loyalty. It has allowed us to tailor marketing efforts to individual shopping
+                                    preferences." - Emily Davis, Marketing Manager</p>
+                                <a href="#">Explore</a>
+                                <div class="button-box2">
+                                    <p><i class="fa-solid fa-calendar-days"></i> 26,12,2002</p>
+                                    <p> <i class="fa-solid fa-user-tie"></i> by Amdin</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item p-2">
+                            <div class="article-box">
+                                <div class="article-img">
+                                    <img src="./assets/img/supply.jpeg" alt="Client Photo">
+                                </div>
+                                <h4>Efficient Supply Chain Management</h4>
+                                <p>"Implementing a digital supply chain management system has improved inventory
+                                    turnover and reduced lead times. It has streamlined our operations and enhanced
+                                    vendor relationships." - Michael Brown, Supply Chain Coordinator</p>
+                                <a href="#">Explore</a>
+                                <div class="button-box2">
+                                    <p><i class="fa-solid fa-calendar-days"></i> 26,12,2002</p>
+                                    <p> <i class="fa-solid fa-user-tie"></i> by Amdin</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item p-2">
+                            <div class="article-box">
+                                <div class="article-img">
+                                    <img src="./assets/img/ai.jpeg" alt="Client Photo">
+                                </div>
+                                <h4>Advanced Data Analytics for Sales Insights</h4>
+                                <p>"Using advanced data analytics, we have gained valuable insights into sales trends
+                                    and customer behavior. It has enabled us to make data-driven decisions and optimize
+                                    our product offerings." - Jessica Green, Sales Analyst</p>
+                                <a href="#">Explore</a>
+                                <div class="button-box2">
+                                    <p><i class="fa-solid fa-calendar-days"></i> 26,12,2002</p>
+                                    <p> <i class="fa-solid fa-user-tie"></i> by Amdin</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item p-2">
+                            <div class="article-box">
+                                <div class="article-img">
+                                    <img src="./assets/img/manage.jpeg" alt="Client Photo">
+                                </div>
+                                <h4>Seamless Online Shopping Integration</h4>
+                                <p>"Integrating online shopping platforms with our in-store systems has expanded our
+                                    customer reach and improved the overall shopping experience. It has streamlined
+                                    order fulfillment and delivery processes." - Daniel White, E-commerce Specialist</p>
+                                <a href="#">Explore</a>
+                                <div class="button-box2">
+                                    <p><i class="fa-solid fa-calendar-days"></i> 26,12,2002</p>
+                                    <p> <i class="fa-solid fa-user-tie"></i> by Amdin</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item p-2">
+                            <div class="article-box">
+                                <div class="article-img">
+                                    <img src="./assets/img/machine.jpeg" alt="Client Photo">
+                                </div>
+                                <h4>Efficient Workforce Management</h4>
+                                <p>"Utilizing workforce management tools has optimized staff scheduling and
+                                    productivity. It has reduced labor costs and improved employee satisfaction." -
+                                    Laura Smith, HR Manager</p>
+                                <a href="#">Explore</a>
+                                <div class="button-box2">
+                                    <p><i class="fa-solid fa-calendar-days"></i> 26,12,2002</p>
+                                    <p> <i class="fa-solid fa-user-tie"></i> by Amdin</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <footer>
+        <div class="container">
+            <h3 class="text-white my-2">Popular Grocery Categories</h3>
+            <div class="row">
+                <div class="col-lg-12">
+                    <button class="category-button">Fruits</button>
+                    <button class="category-button">Vegetables</button>
+                    <button class="category-button">Dairy</button>
+                    <button class="category-button">Meat</button>
+                    <button class="category-button">Bakery</button>
+                    <button class="category-button">Frozen Foods</button>
+                    <button class="category-button">Snacks</button>
+                    <button class="category-button">Beverages</button>
+                    <button class="category-button">Household</button>
+                    <button class="category-button">Personal Care</button>
+                    <button class="category-button">Pantry Staples</button>
+                    <button class="category-button">Organic Products</button>
+                    <button class="category-button">International Foods</button>
+                    <button class="category-button">Health Foods</button>
+                </div>
+            </div>
+            <hr class="text-white">
+            <div class="container footer-list">
+                <div class="row justify-content-center">
+                    <div class="col-lg-3">
+                        <h6>Customer Service</h6>
+                        <ul>
+                            <li><a href="./contact.html"><i class="fa-solid fa-caret-right"></i> Contact Us</a></li>
+                            <li><a href="./faq.html"><i class="fa-solid fa-caret-right"></i> FAQs</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> Return Policy</a></li>
+                            <li><a href="./product-history.html"><i class="fa-solid fa-caret-right"></i> Shipping Information</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h6>Contact</h6>
+                        <ul>
+                            <li><a href="./blog.html"><i class="fa-solid fa-caret-right"></i>Blogs</a></li>
+                            <li><a href="./contact.html"><i class="fa-solid fa-caret-right"></i>Contact</a></li>
+                            <li><a href="./add-to-card-page.html"><i class="fa-solid fa-caret-right"></i>Shopping Cart</a></li>
+                          
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h6>Our Store</h6>
+                        <ul>
+                            <li><a href="about.html"><i class="fa-solid fa-caret-right"></i> About Us</a></li>
+                            <li><a href="./faq.html"><i class="fa-solid fa-caret-right"></i> News & Updates</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h6>Connect With Us</h6>
+                        <form>
+                            <div>
+                                <input type="email" class="form-control" placeholder="Enter your email" required>
+                             
+                                    <button class="cbtn2 my-3" type="submit">Subscribe</button>
+                    
+                            </div>
+                        </form>
+                        <div class="col-lg-12 my-3 social-icons">
+                            <h6>Follow Us</h6>
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a href="#" target="_blank"><i
+                                            class="fab fa-facebook-f"></i></a></li>
+                                <li class="list-inline-item"><a href="#" target="_blank"><i
+                                            class="fab fa-twitter"></i></a></li>
+                                <li class="list-inline-item"><a href="#" target="_blank"><i
+                                            class="fab fa-linkedin-in"></i></a></li>
+                                <li class="list-inline-item"><a href="#" target="_blank"><i
+                                            class="fab fa-instagram"></i></a></li>
+                                <li class="list-inline-item"><a href="#" target="_blank"><i
+                                            class="fab fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="container text-center text-white" >
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p>Copyrights 2024-25. All Rights Reserved for Grocery.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <p><a href="#" class="text-white" style="text-decoration: none;">Privacy</a> | <a href="#" class="text-white" style="text-decoration: no;">Terms &
+                                Conditions</a> | </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- owl carousel CDN -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- owl carousel offiline -->
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./assets/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script> -->
+    <script>
+        $(document).ready(function () {
+            // Initialize Carousel 1
+            $('.carousel-1').owlCarousel({
+                loop: false,
+                margin: 10,
+                nav: true,
+                dots: false,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            });
+
+            // Initialize Carousel 2
+            $('.carousel-2').owlCarousel({
+                loop: false,
+                margin: 10,
+                nav: false,
+                dots: true,
+                autoplay: false,
+            
+                responsive: {
+                    0: {
+                        items: 2
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 6
+                    }
+                }
+            });
+        });
+    </script>
+
+
+    </script>
+
+    <script src="https://kit.fontawesome.com/2bfcad2380.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+     
+     <script src="./assets/js/addtocart.js"></script>
+</body>
+
+</html>
