@@ -1,0 +1,206 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
+p {
+  font-size: 19px !important;
+}
+.top-bar{
+  background-color: orangered;
+  color: white !important;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+.social{    
+    text-align: right;
+    padding-top:10px ;
+}
+.social i {
+font-size: 29px;
+margin:0px 10px;
+}
+.top-poster{
+background: url(../img/environmental-pollution-factory-exterior-night.jpg);
+height: 560px;
+background-size: cover;
+background-position: center;
+}
+
+.top-content{
+  background-color: rgba(0, 0, 0, 0.39);
+  height:560px   !important ;
+  padding: 16px;
+  clip-path: polygon(0 0, 100% 0, 83% 100%, 0 100%);
+  color: white;
+}
+.top-content img{
+  height: 220px;
+}
+
+.cus-btn3{
+  padding: 7px 20px ;
+  border: 1px solid transparent;
+  font-weight: 600;
+  background-color: orangered;
+  border-radius: 5px;
+  color: white;
+  margin: 5px;
+}
+.cus-btn4{
+  padding: 7px 20px ;
+  border: 1px solid orangered;
+  font-weight: 600;
+  background-color: transparent;
+  border-radius: 5px;
+  margin: 5px;
+}
+.cus-btn{
+  padding: 10px 20px ;
+  border: 1px solid transparent;
+  font-weight: 600;
+  background-color: white;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.cus-btn2{
+  padding: 10px 20px ;
+  border: 1px solid white;
+  font-weight: 600;
+  background-color: transparent;
+  border-radius: 5px;
+  color: white;
+  margin: 5px;
+  
+}
+
+.scroll-left {
+    position: relative;
+    animation: scrollLeft 20s linear infinite;
+    white-space: nowrap;
+  }
+
+  .scroll-right {
+    position: relative;
+    animation: scrollRight 20s linear infinite;
+    white-space: nowrap;
+  }
+.secvice-container{
+  background-color: rgb(224, 224, 224);
+}
+.product-box{
+  display: flex;
+  gap: 30px;
+  margin: 10px;
+}
+.pro-img img{
+  height:160px;
+  width: 160px;
+  border-radius: 50%;
+}
+
+
+.product-box{
+  background-color: rgb(224, 224, 224);
+  padding: 10px;
+  border-radius: 5px;
+}
+.pro-text ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+  @keyframes scrollLeft {
+    0% {
+      left: 100%;
+    }
+    100% {
+      left: -100%;
+    }
+  }
+
+  @keyframes scrollRight {
+    0% {
+      right: 100%;
+    }
+    100% {
+      right: -100%;
+    }
+  }
+
+.service-img{
+  background: url(../img/fsdfsdfsdf.png);
+  background-position: center;
+  background-size: cover;
+}
+.test{
+  background: url(../img/co.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.news-text{
+  background-color: white;
+  padding: 10px 20px;
+  width: 260px;
+  margin-left: 40px;
+
+
+}
+.news-box{
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  min-height: 230px;
+}
+
+footer{
+  background-color:orangered;
+  color: white;
+}
+footer li{
+  list-style: none;
+  margin: 10px;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+}
+
+@media screen and (max-width:579px) {
+  p{
+    font-size: 16px !important;
+  }
+  .top-content{
+    background-color: rgba(0, 0, 0, 0.39);
+    height:560px   !important ;
+    padding: 16px;
+    clip-path:none;
+    color: white;
+  }
+   .cus-btn3{
+    display: none;
+   } 
+   .pro-img img{
+    height: 100px;
+    width: 100px;
+   }
+   .pro-text li{
+    font-size: 14px;
+   }
+   .product-box{
+    gap: 10px ;
+    padding: 5px;
+   } 
+   .news-text {
+    width: 200px;
+   }
+   .social{
+    display: none;
+   }
+}
