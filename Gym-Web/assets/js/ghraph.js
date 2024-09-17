@@ -1,0 +1,399 @@
+zingchart.THEME="classic";
+var myConfig = {
+"background-color":"#ffffff",
+"globals": {
+  "font-family":"Arial",
+  "font-weight":"normal"
+},
+"graphset":[
+    {
+        "type":"null",
+        "x":"2.25%",
+        "y":"1%",
+        "background-color":"none",
+        "title":{
+            "text":"Workout Reports",
+            "text-align":"left",
+            "font-size":"19px",
+            "font-color":"#666666",
+            "background-color":"none"
+        }
+    },
+    {
+        "type":"null",
+        "x":"73.75%",
+        "y":"1%",
+        "background-color":"none",
+        "title":{
+            "text":"Last Sync: Yesterday",
+            "text-align":"right",
+            "font-size":"11px",
+            "font-color":"#666666",
+            "background-color":"none"
+        }
+    },
+    {
+        "type":"pie",
+        "height":"40%",
+        "width":"30%",
+        "x":"3%",
+        "y":"10%",
+        "background-color":"#ffffff",
+        "border-radius":4,
+        "title":{
+            "text":"Steps",
+            "text-align":"left",
+            "background-color":"none",
+            "font-color":"#000000",
+            "font-size":"13px",
+            "offset-y":"10%",
+            "offset-x":"10%"
+        },
+        "value-box":{
+            "visible":true
+        },
+        "plotarea":{
+            "margin":"20% 0% 0% 0%"
+        },
+        "plot":{
+            "slice":55,
+            "ref-angle":270,
+            "detach":false,
+            "hover-state":{
+                "visible":false
+            },
+            "value-box":{
+                "visible":true,
+                "type":"first",
+                "connected":false,
+                "placement":"center",
+                "text":"%v",
+                "rules":[
+                    {
+                        "rule":"%v < 3850",
+                        "visible":false
+                    }
+                ],
+                "font-color":"#000000",
+                "font-size":"20px"
+            },
+            "tooltip":{
+                "rules":[
+                    {
+                        "rule":"%i == 0",
+                        "text":"%v %t Completed",
+                        "shadow":false,
+                        "border-radius":4
+                    },
+                    {
+                        "rule":"%i == 1",
+                        "text":"%v Remaining",
+                        "shadow":false,
+                        "border-radius":4
+                    }
+                ]
+            },
+            "animation":{
+                "delay":0,
+                "effect":2,
+                "speed":"600",
+                "method":"0",
+                "sequence":"1"
+            }
+        },
+        "series":[
+            {
+                "values":[3852],
+                "text":"Steps",
+                "background-color":"#a8d6c5",
+                "border-width":"0px",
+                "shadow":0
+            },
+            {
+                "values":[1148],
+                "background-color":"#EBF4FA",
+                "alpha":"0.5",
+                "border-color":"#EBF4FA",
+                "border-width":"1px",
+                "shadow":0
+            }
+        ]
+    },
+    {
+        "type":"pie",
+        "height":"40%",
+        "width":"30%",
+        "x":"35%",
+        "y":"10%",
+        "background-color":"#ffffff",
+        "border-radius":4,
+        "title":{
+            "text":"<strong>Distance</strong> / Miles",
+            "text-align":"left",
+            "background-color":"none",
+            "font-color":"#000000",
+            "font-size":"13px",
+            "offset-y":"10%",
+            "offset-x":"10%"
+        },
+        "value-box":{
+            "visible":true
+        },
+        "plotarea":{
+            "margin":"20% 0% 0% 0%"
+        },
+        "plot":{
+            "slice":50,
+            "ref-angle":270,
+            "detach":false,
+            "hover-state":{
+                "visible":false
+            },
+            "value-box":{
+                "visible":true,
+                "type":"first",
+                "connected":false,
+                "placement":"center",
+                "text":"%v",
+                "rules":[
+                    {
+                        "rule":"%v < 5.6",
+                        "visible":false
+                    }
+                ],
+                "font-color":"#000000",
+                "font-size":"20px"
+            },
+            "tooltip":{
+                "rules":[
+                    {
+                        "rule":"%v == 5.6",
+                        "text":"%v %t Completed",
+                        "shadow":false,
+                        "border-radius":4
+                    },
+                    {
+                        "rule":"%v == 4.4",
+                        "text":"%v Remaining",
+                        "shadow":false,
+                        "border-radius":4
+                    }
+                ]
+            },
+            "animation":{
+                "delay":0,
+                "effect":2,
+                "speed":"600",
+                "method":"0",
+                "sequence":"1"
+            }
+        },
+        "series":[
+            {
+                "values":[5.6],
+                "text":"Miles",
+                "background-color":"#a8d6c5",
+                "border-width":"0px",
+                "shadow":0
+            },
+            {
+                "values":[4.4],
+                "background-color":"#EBF4FA",
+                "alpha":"0.5",
+                "border-color":"#EBF4FA",
+                "border-width":"1px",
+                "shadow":0
+            }
+        ]
+    },
+    {
+        "type":"pie",
+        "height":"40%",
+        "width":"30%",
+        "x":"67%",
+        "y":"10%",
+        "background-color":"#ffffff",
+        "border-radius":4,
+        "title":{
+            "text":"Calories",
+            "text-align":"left",
+            "background-color":"none",
+            "font-color":"#000000",
+            "font-size":"13px",
+            "offset-y":"10%",
+            "offset-x":"10%"
+        },
+        "value-box":{
+            "visible":true
+        },
+        "plotarea":{
+            "margin":"20% 0% 0% 0%"
+        },
+        "plot":{
+            "slice":50,
+            "ref-angle":270,
+            "detach":false,
+            "hover-state":{
+                "visible":false
+            },
+            "value-box":{
+                "visible":true,
+                "type":"first",
+                "connected":false,
+                "placement":"center",
+                "text":"%v",
+                "rules":[
+                    {
+                        "rule":"%v < 2078",
+                        "visible":false
+                    }
+                ],
+                "font-color":"#000000",
+                "font-size":"20px"
+            },
+            "tooltip":{
+                "rules":[
+                    {
+                        "rule":"%v == 2078",
+                        "text":"%v %t Burned",
+                        "shadow":false,
+                        "border-radius":4
+                    },
+                    {
+                        "rule":"%v == 422",
+                        "text":"%v Remaining",
+                        "shadow":false,
+                        "border-radius":4
+                    }
+                ]
+            },
+            "animation":{
+                "delay":0,
+                "effect":2,
+                "speed":"600",
+                "method":"0",
+                "sequence":"1"
+            }
+        },
+        "series":[
+            {
+                "values":[2078],
+                "text":"Calories",
+                "background-color":"#a8d6c5",
+                "border-width":"0px",
+                "shadow":0
+            },
+            {
+                "values":[422],
+                "background-color":"#EBF4FA",
+                "alpha":"0.5",
+                "border-color":"#EBF4FA",
+                "border-width":"1px",
+                "shadow":0
+            }
+        ]
+    },
+    {
+        "type":"bar",
+        "height":"42%",
+        "width":"94%",
+        "x":"3%",
+        "y":"53%",
+        "background-color":"#ffffff",
+        "border-radius":4,
+        "title":{
+            "text":"Attandance Report",
+            "text-align":"left",
+            "font-size":"19px",
+            "font-color":"#000000",
+            "background-color":"none",
+            "offset-x":"10%",
+            "offset-y":"10%"
+        },
+        "legend":{
+            "toggle-action":"remove",
+            "layout":"x3",
+            "x":"52.5%",
+            "shadow":false,
+            "border-color":"none",
+            "background-color":"none",
+            "item":{
+                "font-color":"#000000"
+            },
+            "marker":{
+                "type":"circle",
+                "border-width":0
+            },
+            "tooltip":{
+                "text":"%plot-description"
+                }
+        },
+        "tooltip":{
+            "text":"%t<br><strong>%v</strong>",
+            "font-size":"12px",
+            "border-radius":4,
+            "shadow":false,
+            "callout":true,
+            "padding":"5 10"
+        },
+        "plot":{
+            "background-color":"#000000",
+            "animation":{
+                "effect":"4"
+            }
+        },
+        "plotarea":{
+            "margin":"35% 3.5% 20% 7.5%"
+        },
+        "scale-x":{
+            "values":["Mon","Tue","Wed","thu","Fri","Sat","<strong>Sunday</strong>","Mon","Tue","Wed","hu","Fri", "Sat"],
+            "line-color":"#adadad",
+            "line-width":"1px",
+            "item":{
+                "font-size":"10px",
+                "offset-y":"-2%"
+            },
+            "guide":{
+                "visible":false
+            },
+            "tick":{
+                "visible":false
+            }
+        },
+        "scale-y":{
+            "values":"0:9:1",
+            "line-color":"none",
+            "item":{
+                "font-size":"10px",
+                "offset-x":"2%"
+            },
+            "guide":{
+                "line-style":"solid",
+                "line-color":"#adadad"
+            },
+            "tick":{
+                "visible":false
+            }
+        },
+        "series":[
+           
+            {
+                "text":"Workout Hours",
+                "values":[1,1,null,1,3,5,8,6,2,3,3,5,3],
+                "background-color":"#e48181",
+                "description":"> 5 Miles / Hour",
+                "hover-state":{
+                    "background-color":"#e48181"
+                }
+            }
+        ]
+    }
+]
+};
+
+zingchart.render({ 
+	id : 'myChart', 
+	data : myConfig, 
+	height:600, 
+	width: 725 
+});
