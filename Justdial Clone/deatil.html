@@ -1,0 +1,843 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script src="https://kit.fontawesome.com/2bfcad2380.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <!-- <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"> -->
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-xl navbar-light bg-light py-3" aria-label="Sixth navbar example">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/logi.png" alt="" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample06"
+                aria-controls="navbarsExample06" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarsExample06">
+                <ul class="navbar-nav ms-auto" style="font-weight: 600;">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="./about.html">About</a>
+                    </li>
+        
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="./listing.html">Listing</a>
+                    </li>
+
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="./blog.html">Blog</a>
+                    </li>
+
+
+                </ul>
+                <button class="btn btn-outline-success mx-5" type="submit">Login</button>
+            </div>
+        </div>
+    </nav>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasRightLabel">Fillter</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+   ø
+    <div class="cfilter-box2">
+        <select name="experience-level">
+            <option value="any">Any Experience Level</option>
+            <option value="entry-level">Entry Level</option>
+            <option value="mid-level">Mid Level</option>
+            <option value="senior-level">Senior Level</option>
+            <option value="executive">Executive</option>
+        </select>
+    </div>
+    <div class="cfilter-box2">
+        <select name="certification">
+            <option value="any">Any Certification</option>
+            <option value="cpa">Certified Public Accountant (CPA)</option>
+            <option value="cfa">Chartered Financial Analyst (CFA)</option>
+            <option value="cia">Certified Internal Auditor (CIA)</option>
+            <option value="cma">Certified Management Accountant (CMA)</option>
+            <option value="cgma">Chartered Global Management Accountant (CGMA)</option>
+        </select>
+    </div>
+    <div class="cfilter-box2">
+        <select name="location">
+            <option value="any">Any Location</option>
+            <option value="north-america">North America</option>
+            <option value="south-america">South America</option>
+            <option value="europe">Europe</option>
+            <option value="asia">Asia</option>
+            <option value="australia">Australia</option>
+            <option value="africa">Africa</option>
+        </select>
+    </div>
+    <div class="cfilter-box2">
+        <select name="language">
+            <option value="any">Any Language</option>
+            <option value="english">English</option>
+            <option value="spanish">Spanish</option>
+            <option value="french">French</option>
+            <option value="german">German</option>
+            <option value="mandarin">Mandarin</option>
+            <option value="japanese">Japanese</option>
+            <option value="portuguese">Portuguese</option>
+        </select>
+    </div>
+    <button class="filter-submit-btn">Search for Filters</button>
+</div>
+
+
+</div>
+<section>
+    <div class="container-fluid  py-2">
+        <h6 class="my-2">
+            Home >> Search name >> Particular profile
+        </h6>
+    </div>
+</section>
+
+    <section class="listing">
+
+        <div class="container">
+            <div class="top">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="company-filter">
+                            <div class="cdetail-box">
+                                <h6>Filter</h6>
+                                <p>Search for Accounting Firms in Noida, India for the Year 2024</p>
+                            </div>
+                            <div class="filter-container">
+                                <div class="cfilters">
+                                    <div class="cfilter-box">
+                                        <label>Category</label>
+                                        <select>
+                                            <option value="accounting services">Accounting Services</option>
+                                            <option value="audit services">Audit Services</option>
+                                            <option value="tax advisory">Tax Advisory</option>
+                                            <option value="financial consulting">Financial Consulting</option>
+                                            <option value="business valuation">Business Valuation</option>
+                                            <option value="forensic accounting">Forensic Accounting</option>
+                                        </select>
+                                    </div>
+                                    <div class="cfilter-box">
+                                        <label>Pricing</label>
+                                        <select>
+                                            <option value="any">Any Price</option>
+                                            <option value="under-250000">Under $250,000</option>
+                                            <option value="under-100000">Under $100,000</option>
+                                            <option value="under-75000">Under $75,000</option>
+                                            <option value="under-50000">Under $50,000</option>
+                                            <option value="under-25000">Under $25,000</option>
+                                            <option value="under-10000">Under $10,000</option>
+                                            <option value="under-5000">Under $5,000</option>
+                                        </select>
+                                    </div>
+                                    <div class="cfilter-box">
+                                        <label>Service</label>
+                                        <select>
+                                            <option value="tax services">Tax Services</option>
+                                            <option value="audit and assurance">Audit and Assurance</option>
+                                            <option value="financial reporting">Financial Reporting</option>
+                                            <option value="business advisory">Business Advisory</option>
+                                            <option value="payroll services">Payroll Services</option>
+                                            <option value="bookkeeping">Bookkeeping</option>
+                                            <option value="compliance">Compliance</option>
+                                            <option value="risk management">Risk Management</option>
+                                        </select>
+                                    </div>
+                                    <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">All Filters</button>
+                                    <button>Clear Filters</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <!-- Accounting Firm 1 -->
+                        <div class="col-lg-12">
+                            <div class="company-detail-container">
+                                <div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="row">
+                                                <div class="col-lg-3">
+                                                    <div class="cprofile">
+                                                        <img src="./assets/img/accounting-firm1.jpg" alt="Accounting Firm 1">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-9">
+                                                    <div class="cname">
+                                                        <h3>Smith & Associates</h3>
+                                                        <p>Professional accounting and financial consulting services.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="row">
+                                                <div class="col-lg-3">
+                                                    <div class="review">
+                                                        <span>Rating</span>
+                                                        <div class="star">
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                        </div>
+                                                        <p>4.9</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-5">
+                                                    <div class="cadress">
+                                                        <p><i class="fa-solid fa-tag"></i> ₹ 25,000</p>
+                                                        <p><i class="fa-regular fa-clock"></i> ₹ 2,200 /hr</p>
+                                                        <p><i class="fa-solid fa-location-dot"></i> 123 Main Street, Cityville</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 text-center">
+                                                    <div class="cdetails-btn">
+                                                        <button>View Profile</button>
+                                                        <button>Visit Website</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="cabout">
+                                    <p>Smith & Associates provides a wide range of accounting services including tax preparation,
+                                        auditing, and financial planning. Our team is committed to delivering accurate and reliable
+                                        financial solutions tailored to meet our clients' needs.</p>
+                                    <p>Contact us today to learn how we can help you achieve your financial goals.</p>
+                                    <a href="#">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <!-- Accounting Firm 2 -->
+                        <div class="col-lg-12">
+                            <div class="company-detail-container">
+                                <div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="row">
+                                                <div class="col-lg-3">
+                                                    <div class="cprofile">
+                                                        <img src="./assets/img/accounting-firm2.jpg" alt="Accounting Firm 2">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-9">
+                                                    <div class="cname">
+                                                        <h3>Summit Financial Solutions</h3>
+                                                        <p>Comprehensive accounting and financial advisory services.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="row">
+                                                <div class="col-lg-3">
+                                                    <div class="review">
+                                                        <span>Rating</span>
+                                                        <div class="star">
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star-half"></i>
+                                                        </div>
+                                                        <p>4.5</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-5">
+                                                    <div class="cadress">
+                                                        <p><i class="fa-solid fa-tag"></i> ₹ 22,000</p>
+                                                        <p><i class="fa-regular fa-clock"></i> ₹ 2,000 /hr</p>
+                                                        <p><i class="fa-solid fa-location-dot"></i> 456 Business Avenue, Metro City</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 text-center">
+                                                    <div class="cdetails-btn">
+                                                        <button>View Profile</button>
+                                                        <button>Visit Website</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="cabout">
+                                    <p>Summit Financial Solutions specializes in tax compliance, financial reporting, and business
+                                        advisory services. We are committed to providing strategic financial guidance and solutions
+                                        that help our clients succeed.</p>
+                                    <p>Explore our services and contact us to discuss your financial needs.</p>
+                                    <a href="#">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <!-- Accounting Firm 3 -->
+                        <div class="col-lg-12">
+                            <div class="company-detail-container">
+                                <div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="row">
+                                                <div class="col-lg-3">
+                                                    <div class="cprofile">
+                                                        <img src="./assets/img/accounting-firm3.jpg" alt="Accounting Firm 3">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-9">
+                                                    <div class="cname">
+                                                        <h3>Pinnacle Accounting Services</h3>
+                                                        <p>Expertise in accounting, auditing, and financial consulting.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="row">
+                                                <div class="col-lg-3">
+                                                    <div class="review">
+                                                        <span>Rating</span>
+                                                        <div class="star">
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star-half"></i>
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                        <p>4.3</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-5">
+                                                    <div class="cadress">
+                                                        <p><i class="fa-solid fa-tag"></i> ₹ 20,000</p>
+                                                        <p><i class="fa-regular fa-clock"></i> ₹ 1,800 /hr</p>
+                                                        <p><i class="fa-solid fa-location-dot"></i> 789 Finance Plaza, Downtown</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 text-center">
+                                                    <div class="cdetails-btn">
+                                                        <button>View Profile</button>
+                                                        <button>Visit Website</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="cabout">
+                                    <p>Pinnacle Accounting Services offers personalized accounting solutions to businesses and
+                                        individuals. Our dedicated team ensures compliance and financial efficiency, delivering
+                                        value-added services.</p>
+                                    <p>Contact us to discuss how we can support your financial goals.</p>
+                                    <a href="#">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12">
+                            <div class="company-detail-container">
+                                <div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="row">
+                                                <div class="col-lg-3">
+                                                    <div class="cprofile">
+                                                        <img src="./assets/img/accounting-firm4.jpg" alt="Accounting Firm 4">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-9">
+                                                    <div class="cname">
+                                                        <h3>Excel Accounting Solutions</h3>
+                                                        <p>Specializing in accounting and financial management services.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="row">
+                                                <div class="col-lg-3">
+                                                    <div class="review">
+                                                        <span>Rating</span>
+                                                        <div class="star">
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star-half"></i>
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                        <p>4.3</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-5">
+                                                    <div class="cadress">
+                                                        <p><i class="fa-solid fa-tag"></i> ₹ 18,000</p>
+                                                        <p><i class="fa-regular fa-clock"></i> ₹ 1,500 /hr</p>
+                                                        <p><i class="fa-solid fa-location-dot"></i> 567 Business Center, Downtown</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 text-center">
+                                                    <div class="cdetails-btn">
+                                                        <button>View Profile</button>
+                                                        <button>Visit Website</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="cabout">
+                                    <p>Excel Accounting Solutions provides comprehensive accounting services tailored to meet the needs of businesses and individuals alike. Our team is dedicated to delivering accurate financial advice and solutions that drive success.</p>
+                                    <p>Contact us today to discuss your financial requirements and how we can assist you in achieving your goals.</p>
+                                    <a href="#">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="company-detail-container">
+                                <div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="row">
+                                                <div class="col-lg-3">
+                                                    <div class="cprofile">
+                                                        <img src="./assets/img/accounting-firm5.jpg" alt="Accounting Firm 5">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-9">
+                                                    <div class="cname">
+                                                        <h3>Corporate Accounting Services</h3>
+                                                        <p>Offering corporate accounting and tax consulting services.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="row">
+                                                <div class="col-lg-3">
+                                                    <div class="review">
+                                                        <span>Rating</span>
+                                                        <div class="star">
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                        <p>4.0</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-5">
+                                                    <div class="cadress">
+                                                        <p><i class="fa-solid fa-tag"></i> ₹ 21,000</p>
+                                                        <p><i class="fa-regular fa-clock"></i> ₹ 1,900 /hr</p>
+                                                        <p><i class="fa-solid fa-location-dot"></i> 789 Corporate Avenue, Financial District</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 text-center">
+                                                    <div class="cdetails-btn">
+                                                        <button>View Profile</button>
+                                                        <button>Visit Website</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="cabout">
+                                    <p>Corporate Accounting Services specializes in providing tailored corporate accounting solutions and expert tax consulting services. Our commitment to accuracy and efficiency ensures that businesses receive the support they need to thrive.</p>
+                                    <p>Contact us today to discuss how we can assist you in achieving your financial goals.</p>
+                                    <a href="#">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="company-detail-container">
+                                <div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="row">
+                                                <div class="col-lg-3">
+                                                    <div class="cprofile">
+                                                        <img src="./assets/img/accounting-firm6.jpg" alt="Accounting Firm 6">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-9">
+                                                    <div class="cname">
+                                                        <h3>Global Financial Consultants</h3>
+                                                        <p>Providing global financial consulting and auditing services.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="row">
+                                                <div class="col-lg-3">
+                                                    <div class="review">
+                                                        <span>Rating</span>
+                                                        <div class="star">
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star-half"></i>
+                                                            <i class="fa-regular fa-star"></i>
+                                                        </div>
+                                                        <p>4.2</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-5">
+                                                    <div class="cadress">
+                                                        <p><i class="fa-solid fa-tag"></i> ₹ 23,000</p>
+                                                        <p><i class="fa-regular fa-clock"></i> ₹ 2,000 /hr</p>
+                                                        <p><i class="fa-solid fa-location-dot"></i> 890 Financial Tower, International Business District</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 text-center">
+                                                    <div class="cdetails-btn">
+                                                        <button>View Profile</button>
+                                                        <button>Visit Website</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="cabout">
+                                    <p>Global Financial Consultants offers comprehensive global financial consulting and auditing services tailored to meet the diverse needs of international businesses. Our expertise ensures accurate financial management and compliance.</p>
+                                    <p>Contact us to discuss how we can support your business growth and financial stability.</p>
+                                    <a href="#">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="company-detail-container">
+                                <div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="row">
+                                                <div class="col-lg-3">
+                                                    <div class="cprofile">
+                                                        <img src="./assets/img/accounting-firm7.jpg" alt="Accounting Firm 7">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-9">
+                                                    <div class="cname">
+                                                        <h3>Smart Accounting Solutions</h3>
+                                                        <p>Offering smart accounting solutions for small businesses.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="row">
+                                                <div class="col-lg-3">
+                                                    <div class="review">
+                                                        <span>Rating</span>
+                                                        <div class="star">
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star-half"></i>
+                                                        </div>
+                                                        <p>4.5</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-5">
+                                                    <div class="cadress">
+                                                        <p><i class="fa-solid fa-tag"></i> ₹ 17,000</p>
+                                                        <p><i class="fa-regular fa-clock"></i> ₹ 1,600 /hr</p>
+                                                        <p><i class="fa-solid fa-location-dot"></i> 123 Small Business Lane, Suburbia</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 text-center">
+                                                    <div class="cdetails-btn">
+                                                        <button>View Profile</button>
+                                                        <button>Visit Website</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="cabout">
+                                    <p>Smart Accounting Solutions specializes in providing smart accounting solutions tailored to the unique needs of small businesses. Our goal is to simplify financial management and enhance business profitability.</p>
+                                    <p>Contact us today to discuss how we can help your small business thrive.</p>
+                                    <a href="#">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                                                
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 footer-btn">
+                    <a href="#">Mumbai</a>
+                    <a href="#">Delhi</a>
+                    <a href="#">Bangalore</a>
+                    <a href="#">Hyderabad</a>
+                    <a href="#">Chennai</a>
+                    <a href="#">Kolkata</a>
+                    <a href="#">Ahmedabad</a>
+                    <a href="#">Pune</a>
+                    <a href="#">Jaipur</a>
+                    <a href="#">Surat</a>
+                    <a href="#">Lucknow</a>
+                    <a href="#">Kanpur</a>
+                    <a href="#">Nagpur</a>
+                    <a href="#">Indore</a>
+                    <a href="#">Thane</a>
+                    <a href="#">Bhopal</a>
+                    <a href="#">Visakhapatnam</a>
+                    <a href="#">Pimpri-Chinchwad</a>
+                    <a href="#">Patna</a>
+                    <a href="#">Vadodara</a>
+                    <a href="#">Ghaziabad</a>
+                    <a href="#">Ludhiana</a>
+                    <a href="#">Agra</a>
+                    <a href="#">Nashik</a>
+                    <a href="#">Faridabad</a>
+                    <a href="#">Meerut</a>
+                    <a href="#">Rajkot</a>
+                    <a href="#">Kalyan-Dombivli</a>
+                    <a href="#">Vasai-Virar</a>
+                    <a href="#">Varanasi</a>
+                    <a href="#">Srinagar</a>
+                    <a href="#">Aurangabad</a>
+                    <a href="#">Dhanbad</a>
+                    <a href="#">Amritsar</a>
+                    <a href="#">Navi Mumbai</a>
+                    <a href="#">Allahabad</a>
+                    <a href="#">Ranchi</a>
+                    <a href="#">Howrah</a>
+                    <a href="#">Coimbatore</a>
+                    <a href="#">Jabalpur</a>
+                    <a href="#">Gwalior</a>
+                    <a href="#">Vijayawada</a>
+                    <a href="#">Jodhpur</a>
+                    <a href="#">Madurai</a>
+                    <a href="#">Raipur</a>
+                    <a href="#">Kota</a>
+                    <a href="#">Guwahati</a>
+                    <a href="#">Chandigarh</a>
+                    <a href="#">Solapur</a> 
+                    <a href="#">Hubli-Dharwad</a>
+                </div>
+            </div>
+            <hr class="text-white">
+            <div class="row">
+                <div class="col-lg-12 footer-btn">
+                    <a href="#">Accounting Services</a>
+                    <a href="#">Tax Advisory</a>
+                    <a href="#">Audit and Assurance</a>
+                    <a href="#">Financial Reporting</a>
+                    <a href="#">Bookkeeping</a>
+                    <a href="#">Payroll Services</a>
+                    <a href="#">Business Valuation</a>
+                    <a href="#">Corporate Finance</a>
+                    <a href="#">Risk Management</a>
+                    <a href="#">Compliance Services</a>
+                    <a href="#">Financial Planning</a>
+                    <a href="#">Investment Advisory</a>
+                    <a href="#">Mergers & Acquisitions</a>
+                    <a href="#">Forensic Accounting</a>
+                    <a href="#">Management Consulting</a>
+                    <a href="#">Strategic Advisory</a>
+                    <a href="#">Legal and Regulatory Services</a>
+                    <a href="#">IT Services for Finance</a>
+                    <a href="#">Cybersecurity for Finance</a>
+                    <a href="#">Data Analytics in Finance</a>
+                    <a href="#">Cloud Solutions for Finance</a>
+                    <a href="#">Corporate Governance</a>
+                    <a href="#">Sustainability and ESG</a>
+                    <a href="#">Supply Chain Finance</a>
+                    <a href="#">Real Estate Finance</a>
+                    <a href="#">Insurance Advisory</a>
+                    <a href="#">Energy and Utilities Finance</a>
+                    <a href="#">Retail Finance</a>
+                    <a href="#">Automotive Finance</a>
+                </div>
+
+            </div>
+
+            <hr class="text-white">
+            <div class="row footer-list text-white my-3">
+                <div class="col-lg-3">
+                    <h4>About Us</h4>
+                    <ul>
+                        <li><a href="#">Our Firm</a></li>
+                        <li><a href="#">Leadership Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Our Values</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Audit and Assurance</a></li>
+                        <li><a href="#">Tax Advisory</a></li>
+                        <li><a href="#">Financial Reporting</a></li>
+                        <li><a href="#">Bookkeeping</a></li>
+                        <li><a href="#">Payroll Services</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Insights</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">Whitepapers</a></li>
+                        <li><a href="#">Webinars</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><a href="mailto:info@accountingfirm.com">Email: info@accountingfirm.com</a></li>
+                        <li><a href="tel:+1234567890">Phone: +123-456-7890</a></li>
+                        <li><a href="#">Address: 123 Accounting Street, Finance City</a></li>
+                        <li><a href="mailto:support@accountingfirm.com">Support: support@accountingfirm.com</a></li>
+                        <li><a href="#">Live Chat</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="container text-center my-4 text-white">
+                    <p>Copyrights 2008-24. All Rights Reserved. <a href="#" class="text-white">Privacy</a> | <a href="#"
+                            class="text-white">Terms</a> | <a href="#" class="text-white">Infringement</a></p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Owl Carousel JavaScript -->
+    <script src="./assets/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+
+    <!-- 
+<script src="./assets/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+<script src="./assets/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+    <script>
+        $(document).ready(function () {
+            var owl1 = $('.owl-carousel-one');
+            var owl2 = $('.owl-carousel-two');
+
+            owl1.owlCarousel({
+                loop: true,
+                nav: true,
+                dots: false,
+                margin: 10,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 3
+                    },
+                    960: {
+                        items: 5
+                    },
+                    1200: {
+                        items: 3
+                    }
+                }
+            });
+
+            owl1.on('mousewheel', '.owl-stage', function (e) {
+                if (e.originalEvent.deltaY > 0) {
+                    owl1.trigger('next.owl.carousel');
+                } else {
+                    owl1.trigger('prev.owl.carousel');
+                }
+                e.preventDefault();
+            });
+
+            owl2.owlCarousel({
+                rtl: true,
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            });
+
+            owl2.on('mousewheel', '.owl-stage', function (e) {
+                if (e.originalEvent.deltaY > 0) {
+                    owl2.trigger('next.owl.carousel');
+                } else {
+                    owl2.trigger('prev.owl.carousel');
+                }
+                e.preventDefault();
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>

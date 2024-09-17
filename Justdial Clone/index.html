@@ -1,0 +1,974 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script src="https://kit.fontawesome.com/2bfcad2380.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"> -->
+    <!-- <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+</head>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-xl navbar-light bg-light py-3" aria-label="Sixth navbar example">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/logi.png" alt="" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample06"
+                aria-controls="navbarsExample06" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarsExample06">
+                <ul class="navbar-nav ms-auto" style="font-weight: 600;">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="./about.html">About</a>
+                    </li>
+        
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="./listing.html">Listing</a>
+                    </li>
+
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="./blog.html">Blog</a>
+                    </li>
+
+
+                </ul>
+                <button class="btn btn-outline-success mx-5" type="submit">Login</button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="poster">
+        <div class="container-fluid py-5 " style="background-color: rgba(0, 0, 0, 0.651);">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="text-white">Delivering Innovative Solutions in Financial Accounting, Tax Advisory, and Auditing Services</h2>
+
+
+                </div>
+                <div class="col-lg-5">
+
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-success px-5" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid">
+            <div class="row my-5">
+                <div class="col-lg-12 text-center">
+                    <h2>Our Service</h2>
+                    <p>Delivering Excellence and Customer Satisfaction </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./assets/img/4393.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/img/4393.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/img/4393.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <a href="#">
+                        <div class="service-box">
+                            <h3>Chartered Accountancy</h3>
+                            <p>(Financial Consulting)</p>
+                            <img src="./assets/img/5355919-removebg-preview.png" alt="" class="ser-img">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2">
+                    <a href="#">
+                        <div class="service-box">
+                            <h3>Tax Consultancy</h3>
+                            <p>(Taxation Services)</p>
+                            <img src="./assets/img/8670874-removebg-preview.png" alt="" class="ser-img">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2">
+                    <a href="#">
+                        <div class="service-box">
+                            <h3>Audit Services</h3>
+                            <p>(Financial Auditing)</p>
+                            <img src="./assets/img/9844633-removebg-preview.png" alt="" class="ser-img">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2">
+                    <a href="#">
+                        <div class="service-box">
+                            <h3>Financial Planning</h3>
+                            <p>(Investment Advice)</p>
+                            <img src="./assets/img/515319-PIRK7R-406-removebg-preview.png" alt="" class="ser-img">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container my-4">
+
+            <div class="row text-center">
+                <div class="col-lg-2 my-3 text-center">
+                    <a href="#">
+                        <div class="other-service-box">
+                            <img src="./assets/img/5458424.jpg" alt="Accounting">
+                            <div class="hide text-center">
+                                <h6 class="my-2">Accounting Services</h6>
+                                <p>Comprehensive accounting solutions for businesses.</p>
+                            </div>
+                        </div>
+                        <h6 class="my-2">Accounting Services</h6>
+                    </a>
+                </div>
+                <div class="col-lg-2 my-3">
+                    <a href="#">
+                        <div class="other-service-box">
+                            <img src="./assets/img/10075627.jpg" alt="Taxation">
+                            <div class="hide text-center">
+                                <h6 class="my-2">Tax Consultancy</h6>
+                                <p>Expert tax planning and advisory services.</p>
+                            </div>
+                        </div>
+                        <h6 class="my-2">Tax Consultancy</h6>
+                    </a>
+                </div>
+                <div class="col-lg-2 my-3">
+                    <a href="#">
+                        <div class="other-service-box">
+                            <img src="./assets/img/4393.jpg" alt="Auditing">
+                            <div class="hide text-center">
+                                <h6 class="my-2">Financial Auditing</h6>
+                                <p>Independent audit services for financial accuracy.</p>
+                            </div>
+                        </div>
+                        <h6 class="my-2">Financial Auditing</h6>
+                    </a>
+                </div>
+                <div class="col-lg-2 my-3">
+                    <a href="#">
+                        <div class="other-service-box">
+                            <img src="./assets/img/5355919-removebg-preview.png" alt="Payroll">
+                            <div class="hide text-center">
+                                <h6 class="my-2">Payroll Management</h6>
+                                <p>Efficient payroll processing and compliance.</p>
+                            </div>
+                        </div>
+                        <h6 class="my-2">Payroll Management</h6>
+                    </a>
+                </div>
+                <div class="col-lg-2 my-3">
+                    <a href="#">
+                        <div class="other-service-box">
+                            <img src="./assets/img/8670874.jpg" alt="Bookkeeping">
+                            <div class="hide text-center">
+                                <h6 class="my-2">Bookkeeping</h6>
+                                <p>Accurate record-keeping and financial reporting.</p>
+                            </div>
+                        </div>
+                        <h6 class="my-2">Bookkeeping</h6>
+                    </a>
+                </div>
+                <div class="col-lg-2 my-3">
+                    <a href="#">
+                        <div class="other-service-box">
+                            <img src="./assets/img/9844633-removebg-preview.png" alt="CFO Services">
+                            <div class="hide text-center">
+                                <h6 class="my-2">CFO Services</h6>
+                                <p>Strategic financial leadership and management.</p>
+                            </div>
+                        </div>
+                        <h6 class="my-2">CFO Services</h6>
+                    </a>
+                </div>
+                <div class="col-lg-2 my-3">
+                    <a href="#">
+                        <div class="other-service-box">
+                            <img src="./assets/img/515319-PIRK7R-406.jpg" alt="Consulting">
+                            <div class="hide text-center">
+                                <h6 class="my-2">Business Consulting</h6>
+                                <p>Expert advice to optimize business operations.</p>
+                            </div>
+                        </div>
+                        <h6 class="my-2">Business Consulting</h6>
+                    </a>
+                </div>
+                <div class="col-lg-2 my-3">
+                    <a href="#">
+                        <div class="other-service-box">
+                            <img src="./assets/img/Sandy_Tsp-04_Single-06.jpg" alt="Business Analysis">
+                            <div class="hide text-center">
+                                <h6 class="my-2">Business Analysis</h6>
+                                <p>Analyzing business data for strategic decision-making.</p>
+                            </div>
+                        </div>
+                        <h6 class="my-2">Business Analysis</h6>
+                    </a>
+                </div>
+                <div class="col-lg-2 my-3">
+                    <a href="#">
+                        <div class="other-service-box">
+                            <img src="./assets/img/634.jpg" alt="Financial Planning">
+                            <div class="hide text-center">
+                                <h6 class="my-2">Financial Planning</h6>
+                                <p>Developing financial strategies for short and long-term goals.</p>
+                            </div>
+                        </div>
+                        <h6 class="my-2">Financial Planning</h6>
+                    </a>
+                </div>
+                <div class="col-lg-2 my-3">
+                    <a href="#">
+                        <div class="other-service-box">
+                            <img src="./assets/img/8487305.jpg" alt="Investment Advisory">
+                            <div class="hide text-center">
+                                <h6 class="my-2">Investment Advisory</h6>
+                                <p>Providing advice on investments and portfolio management.</p>
+                            </div>
+                        </div>
+                        <h6 class="my-2">Investment Advisory</h6>
+                    </a>
+                </div>
+                <div class="col-lg-2 my-3">
+                    <a href="#">
+                        <div class="other-service-box">
+                            <img src="./assets/img/20945264.jpg" alt="Forensic Accounting">
+                            <div class="hide text-center">
+                                <h6 class="my-2">Forensic Accounting</h6>
+                                <p>Investigating financial discrepancies and fraud.</p>
+                            </div>
+                        </div>
+                        <h6 class="my-2">Forensic Accounting</h6>
+                    </a>
+                </div>
+                <div class="col-lg-2 my-3">
+                    <a href="#">
+                        <div class="other-service-box">
+                            <img src="./assets/img/10075627.jpg" alt="Wealth Management">
+                            <div class="hide text-center">
+                                <h6 class="my-2">Wealth Management</h6>
+                                <p>Managing wealth and assets for individuals and businesses.</p>
+                            </div>
+                        </div>
+                        <h6 class="my-2">Wealth Management</h6>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section>
+        <div class="container detils-container">
+            <div class="row align-items-center">
+                <div class="col-lg-4">
+                    <h2>Accounting Services Process</h2>
+                    <p>Outline of the accounting services process from planning to final review.</p>
+                </div>
+                <div class="col-lg-8">
+                    <div class="owl-carousel owl-carousel-one owl-theme text-white">
+                        <div class="item p-2">
+                            <div class="detail-box">
+                                <div class="counting">
+                                    <h1>1</h1>
+                                </div>
+                                <h4>Client Needs Assessment</h4>
+                                <p>Understand client requirements and financial goals.</p>
+                            </div>
+                        </div>
+                        <div class="item p-2">
+                            <div class="detail-box">
+                                <div class="counting">
+                                    <h1>2</h1>
+                                </div>
+                                <h4>Financial Analysis</h4>
+                                <p>Analyze financial data and current business performance.</p>
+                            </div>
+                        </div>
+                        <div class="item p-2">
+                            <div class="detail-box">
+                                <div class="counting">
+                                    <h1>3</h1>
+                                </div>
+                                <h4>Strategy Development</h4>
+                                <p>Develop tailored financial strategies and recommendations.</p>
+                            </div>
+                        </div>
+                        <div class="item p-2">
+                            <div class="detail-box">
+                                <div class="counting">
+                                    <h1>4</h1>
+                                </div>
+                                <h4>Financial Reporting</h4>
+                                <p>Prepare comprehensive financial reports and statements.</p>
+                            </div>
+                        </div>
+                        <div class="item p-2">
+                            <div class="detail-box">
+                                <div class="counting">
+                                    <h1>5</h1>
+                                </div>
+                                <h4>Tax Planning and Compliance</h4>
+                                <p>Ensure compliance with tax regulations and optimize tax planning.</p>
+                            </div>
+                        </div>
+                        <div class="item p-2">
+                            <div class="detail-box">
+                                <div class="counting">
+                                    <h1>6</h1>
+                                </div>
+                                <h4>Implementation</h4>
+                                <p>Implement financial strategies and recommendations.</p>
+                            </div>
+                        </div>
+                        <div class="item p-2">
+                            <div class="detail-box">
+                                <div class="counting">
+                                    <h1>7</h1>
+                                </div>
+                                <h4>Review and Audit</h4>
+                                <p>Conduct regular reviews and audits to ensure accuracy and compliance.</p>
+                            </div>
+                        </div>
+                        <div class="item p-2">
+                            <div class="detail-box">
+                                <div class="counting">
+                                    <h1>8</h1>
+                                </div>
+                                <h4>Client Feedback</h4>
+                                <p>Seek client feedback and make necessary adjustments.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <section>
+        <div class="container my-5">
+            <h1>Hire Financial Services Experts</h1>
+            <h4>Find the Right Expertise for Your Financial Projects</h4>
+            <div class="row py-5">
+                <div class="col-lg-2">
+                    <div class="hire-dev">
+                        <div class="hire-img">
+                            <img src="./assets/img/4393.jpg" alt="Accounting Services">
+                        </div>
+                        <h4>Accounting Services</h4>
+                        <button>Hire</button>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="hire-dev">
+                        <div class="hire-img">
+                            <img src="./assets/img/515319-PIRK7R-406-removebg-preview.png" alt="Tax Consultancy">
+                        </div>
+                        <h4>Tax Consultancy</h4>
+                        <button>Hire</button>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="hire-dev">
+                        <div class="hire-img">
+                            <img src="./assets/img/5355919-removebg-preview.png" alt="Auditing Services">
+                        </div>
+                        <h4>Auditing Services</h4>
+                        <button>Hire</button>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="hire-dev">
+                        <div class="hire-img">
+                            <img src="./assets/img/634.jpg" alt="Bookkeeping Services">
+                        </div>
+                        <h4>Bookkeeping Services</h4>
+                        <button>Hire</button>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="hire-dev">
+                        <div class="hire-img">
+                            <img src="./assets/img/8487305.jpg" alt="Financial Planning">
+                        </div>
+                        <h4>Financial Planning</h4>
+                        <button>Hire</button>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="hire-dev">
+                        <div class="hire-img">
+                            <img src="./assets/img/9844633-removebg-preview 2.png" alt="Investment Advisory">
+                        </div>
+                        <h4>Investment Advisory</h4>
+                        <button>Hire</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <section>
+        <div class="container py-5">
+            <h1>What Our Clients Say</h1>
+            <h4>Hear directly from our satisfied customers</h4>
+            <div class="row align-items-center py-3">
+                <div class="col-lg-12">
+                    <div class="owl-carousel owl-carousel-two owl-theme">
+                        <div class="item p-2">
+                            <div class="testimonial-box">
+                                <div class="profile-box">
+                                    <img src="./assets/img/profile3.jpg" alt="Client 1">
+                                    <ul>
+                                        <h6>Emma Watson</h6>
+                                        <p>Finance Manager at Global Investments Inc.</p>
+                                        <div class="star-box">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </ul>
+                                </div>
+                                <p>We engaged Appify Solutions for our financial planning needs. Their expertise and
+                                    attention to detail helped us streamline our financial strategy effectively.</p>
+                            </div>
+                        </div>
+                        <div class="item p-2">
+                            <div class="testimonial-box">
+                                <div class="profile-box">
+                                    <img src="./assets/img/profile2.jpg" alt="Client 2">
+                                    <ul>
+                                        <h6>Michael Brown</h6>
+                                        <p>CEO at Wealth Management Solutions</p>
+                                        <div class="star-box">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </ul>
+                                </div>
+                                <p>Appify Solutions provided excellent auditing services for our company. They ensured
+                                    our financial statements were accurate and compliant with regulations.</p>
+                            </div>
+                        </div>
+                        <div class="item p-2">
+                            <div class="testimonial-box">
+                                <div class="profile-box">
+                                    <img src="./assets/img/profile1.jpg" alt="Client 3">
+                                    <ul>
+                                        <h6>Sophia Adams</h6>
+                                        <p>Owner at Small Business Solutions</p>
+                                        <div class="star-box">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </ul>
+                                </div>
+                                <p>We are delighted with the tax consultancy services provided by Appify Solutions.
+                                    Their insights helped optimize our tax strategy effectively.</p>
+                            </div>
+                        </div>
+                        <div class="item p-2">
+                            <div class="testimonial-box">
+                                <div class="profile-box">
+                                    <img src="./assets/img/profile3.jpg" alt="Client 4">
+                                    <ul>
+                                        <h6>William Johnson</h6>
+                                        <p>Director at Financial Advisors Ltd.</p>
+                                        <div class="star-box">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </ul>
+                                </div>
+                                <p>Appify Solutions helped us with bookkeeping services and financial reporting. Their
+                                    dedication and accuracy are commendable.</p>
+                            </div>
+                        </div>
+                        <div class="item p-2">
+                            <div class="testimonial-box">
+                                <div class="profile-box">
+                                    <img src="./assets/img/profile2.jpg" alt="Client 5">
+                                    <ul>
+                                        <h6>Olivia Moore</h6>
+                                        <p>CFO at Tech Innovators Group</p>
+                                        <div class="star-box">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </ul>
+                                </div>
+                                <p>Appify Solutions provided insightful financial consulting services that helped us
+                                    navigate through a complex merger process. Their expertise was invaluable.</p>
+                            </div>
+                        </div>
+                        <div class="item p-2">
+                            <div class="testimonial-box">
+                                <div class="profile-box">
+                                    <img src="./assets/img/profile1.jpg" alt="Client 6">
+                                    <ul>
+                                        <h6>Nathan Carter</h6>
+                                        <p>Accounting Manager at Global Investments Inc.</p>
+                                        <div class="star-box">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </ul>
+                                </div>
+                                <p>Appify Solutions' tax preparation services saved us significant time and ensured
+                                    compliance with the latest tax laws. Highly recommended for their efficiency.</p>
+                            </div>
+                        </div>
+                        <div class="item p-2">
+                            <div class="testimonial-box">
+                                <div class="profile-box">
+                                    <img src="./assets/img/profile2.jpg" alt="Client 7">
+                                    <ul>
+                                        <h6>Isabella Martinez</h6>
+                                        <p>CEO at Finance Excellence Group</p>
+                                        <div class="star-box">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </ul>
+                                </div>
+                                <p>Appify Solutions provided thorough financial analysis services that helped us
+                                    identify cost-saving opportunities and improve profitability. Exceptional service!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="container py-5 article-container">
+            <h1>Client Success Stories in the Accounting Sector</h1>
+            <h4>Discover how our clients are leveraging technology to drive efficiency and innovation</h4>
+            <div class="row align-items-center py-3">
+                <div class="col-lg-12">
+                    <div class="owl-carousel owl-carousel-two owl-theme">
+                        <div class="item p-2">
+                            <div class="article-box">
+                                <div class="article-img">
+                                    <img src="./assets/img/5355919-removebg-preview.png" alt="Client Photo">
+                                </div>
+                                <h4>AI-Powered Financial Analysis</h4>
+                                <p>"Implementing AI for financial analysis has enabled us to process large volumes of
+                                    data quickly and accurately. It has enhanced our forecasting capabilities and
+                                    improved decision-making." - John Smith, CFO</p>
+                                <a href="#">Explore</a>
+                            </div>
+                        </div>
+                        <div class="item p-2">
+                            <div class="article-box">
+                                <div class="article-img">
+                                    <img src="./assets/img/515319-PIRK7R-406.jpg" alt="Client Photo">
+                                </div>
+                                <h4>Enhanced Data Security with Blockchain</h4>
+                                <p>"Blockchain technology has provided us with secure and transparent transaction
+                                    records. It has strengthened our clients' trust and compliance with regulatory
+                                    requirements." - Emily Brown, Chief Compliance Officer</p>
+                                <a href="#">Explore</a>
+                            </div>
+                        </div>
+                        <div class="item p-2">
+                            <div class="article-box">
+                                <div class="article-img">
+                                    <img src="./assets/img/8738195.jpg" alt="Client Photo">
+                                </div>
+                                <h4>Cloud Solutions for Scalability</h4>
+                                <p>"Migrating to cloud solutions has improved our operational efficiency and
+                                    scalability. It has enabled remote access to critical financial data and enhanced
+                                    collaboration among our teams." - Andrew Wilson, IT Manager</p>
+                                <a href="#">Explore</a>
+                            </div>
+                        </div>
+                        <div class="item p-2">
+                            <div class="article-box">
+                                <div class="article-img">
+                                    <img src="./assets/img/634.jpg" alt="Client Photo">
+                                </div>
+                                <h4>Advanced Data Analytics Driving Insights</h4>
+                                <p>"Using advanced data analytics, we have gained deeper insights into our clients'
+                                    financial health. It has enabled us to offer personalized advisory services and
+                                    proactive financial planning." - Sarah Davis, Senior Accountant</p>
+                                <a href="#">Explore</a>
+                            </div>
+                        </div>
+                        <div class="item p-2">
+                            <div class="article-box">
+                                <div class="article-img">
+                                    <img src="./assets/img/profile3.jpg" alt="Client Photo">
+                                </div>
+                                <h4>RPA Streamlining Accounting Processes</h4>
+                                <p>"Implementing robotic process automation (RPA) has automated routine accounting
+                                    tasks, reducing errors and freeing up our team's time to focus on strategic
+                                    initiatives." - Michael Johnson, Operations Manager</p>
+                                <a href="#">Explore</a>
+                            </div>
+                        </div>
+                        <div class="item p-2">
+                            <div class="article-box">
+                                <div class="article-img">
+                                    <img src="./assets/img/8487305.jpg" alt="Client Photo">
+                                </div>
+                                <h4>Efficient Tax Compliance with AI</h4>
+                                <p>"AI-powered tax compliance tools have improved accuracy and efficiency in preparing
+                                    tax returns and audits. It has enabled us to stay ahead of regulatory changes and
+                                    provide timely advice to our clients." - Olivia Martinez, Tax Consultant</p>
+                                <a href="#">Explore</a>
+                            </div>
+                        </div>
+                        <div class="item p-2">
+                            <div class="article-box">
+                                <div class="article-img">
+                                    <img src="./assets/img/Sandy_Tsp-04_Single-06.jpg" alt="Client Photo">
+                                </div>
+                                <h4>Data-driven Financial Planning</h4>
+                                <p>"Utilizing AI-driven data analytics for financial planning has optimized our
+                                    budgeting and forecasting processes. It has enabled us to make data-driven decisions
+                                    that align with our clients' long-term financial goals." - James Adams, Financial
+                                    Analyst</p>
+                                <a href="#">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <h1>Social Links
+                
+                </h1>
+                <div class="col-lg-6 social py-3">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 footer-btn">
+                    <a href="#">Mumbai</a>
+                    <a href="#">Delhi</a>
+                    <a href="#">Bangalore</a>
+                    <a href="#">Hyderabad</a>
+                    <a href="#">Chennai</a>
+                    <a href="#">Kolkata</a>
+                    <a href="#">Ahmedabad</a>
+                    <a href="#">Pune</a>
+                    <a href="#">Jaipur</a>
+                    <a href="#">Surat</a>
+                    <a href="#">Lucknow</a>
+                    <a href="#">Kanpur</a>
+                    <a href="#">Nagpur</a>
+                    <a href="#">Indore</a>
+                    <a href="#">Thane</a>
+                    <a href="#">Bhopal</a>
+                    <a href="#">Visakhapatnam</a>
+                    <a href="#">Pimpri-Chinchwad</a>
+                    <a href="#">Patna</a>
+                    <a href="#">Vadodara</a>
+                    <a href="#">Ghaziabad</a>
+                    <a href="#">Ludhiana</a>
+                    <a href="#">Agra</a>
+                    <a href="#">Nashik</a>
+                    <a href="#">Faridabad</a>
+                    <a href="#">Meerut</a>
+                    <a href="#">Rajkot</a>
+                    <a href="#">Kalyan-Dombivli</a>
+                    <a href="#">Vasai-Virar</a>
+                    <a href="#">Varanasi</a>
+                    <a href="#">Srinagar</a>
+                    <a href="#">Aurangabad</a>
+                    <a href="#">Dhanbad</a>
+                    <a href="#">Amritsar</a>
+                    <a href="#">Navi Mumbai</a>
+                    <a href="#">Allahabad</a>
+                    <a href="#">Ranchi</a>
+                    <a href="#">Howrah</a>
+                    <a href="#">Coimbatore</a>
+                    <a href="#">Jabalpur</a>
+                    <a href="#">Gwalior</a>
+                    <a href="#">Vijayawada</a>
+                    <a href="#">Jodhpur</a>
+                    <a href="#">Madurai</a>
+                    <a href="#">Raipur</a>
+                    <a href="#">Kota</a>
+                    <a href="#">Guwahati</a>
+                    <a href="#">Chandigarh</a>
+                    <a href="#">Solapur</a> 
+                    <a href="#">Hubli-Dharwad</a>
+                </div>
+            </div>
+            <hr class="text-white">
+            <div class="row">
+                <div class="col-lg-12 footer-btn">
+                    <a href="#">Accounting Services</a>
+                    <a href="#">Tax Advisory</a>
+                    <a href="#">Audit and Assurance</a>
+                    <a href="#">Financial Reporting</a>
+                    <a href="#">Bookkeeping</a>
+                    <a href="#">Payroll Services</a>
+                    <a href="#">Business Valuation</a>
+                    <a href="#">Corporate Finance</a>
+                    <a href="#">Risk Management</a>
+                    <a href="#">Compliance Services</a>
+                    <a href="#">Financial Planning</a>
+                    <a href="#">Investment Advisory</a>
+                    <a href="#">Mergers & Acquisitions</a>
+                    <a href="#">Forensic Accounting</a>
+                    <a href="#">Management Consulting</a>
+                    <a href="#">Strategic Advisory</a>
+                    <a href="#">Legal and Regulatory Services</a>
+                    <a href="#">IT Services for Finance</a>
+                    <a href="#">Cybersecurity for Finance</a>
+                    <a href="#">Data Analytics in Finance</a>
+                    <a href="#">Cloud Solutions for Finance</a>
+                    <a href="#">Corporate Governance</a>
+                    <a href="#">Sustainability and ESG</a>
+                    <a href="#">Supply Chain Finance</a>
+                    <a href="#">Real Estate Finance</a>
+                    <a href="#">Insurance Advisory</a>
+                    <a href="#">Energy and Utilities Finance</a>
+                    <a href="#">Retail Finance</a>
+                    <a href="#">Automotive Finance</a>
+                </div>
+
+            </div>
+
+            <hr class="text-white">
+            <div class="row footer-list text-white my-3">
+                <div class="col-lg-3">
+                    <h4>About Us</h4>
+                    <ul>
+                        <li><a href="#">Our Firm</a></li>
+                        <li><a href="#">Leadership Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Our Values</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Audit and Assurance</a></li>
+                        <li><a href="#">Tax Advisory</a></li>
+                        <li><a href="#">Financial Reporting</a></li>
+                        <li><a href="#">Bookkeeping</a></li>
+                        <li><a href="#">Payroll Services</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Insights</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">Whitepapers</a></li>
+                        <li><a href="#">Webinars</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><a href="mailto:info@accountingfirm.com">Email: info@accountingfirm.com</a></li>
+                        <li><a href="tel:+1234567890">Phone: +123-456-7890</a></li>
+                        <li><a href="#">Address: 123 Accounting Street, Finance City</a></li>
+                        <li><a href="mailto:support@accountingfirm.com">Support: support@accountingfirm.com</a></li>
+                        <li><a href="#">Live Chat</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="container text-center my-4 text-white">
+                    <p>Copyrights 2008-24. All Rights Reserved. <a href="#" class="text-white">Privacy</a> | <a href="#"
+                            class="text-white">Terms</a> | <a href="#" class="text-white">Infringement</a></p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Owl Carousel JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+    <!-- Owl Carousel JavaScript -->
+    <!-- <script src="./assets/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script> -->
+
+<!--     
+<script src="./assets/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+<script src="./assets/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script> -->
+    <script>
+        $(document).ready(function () {
+            var owl1 = $('.owl-carousel-one');
+            var owl2 = $('.owl-carousel-two');
+
+            owl1.owlCarousel({
+                loop: true,
+                nav: true,
+                dots: false,
+                margin: 10,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 3
+                    },
+                    960: {
+                        items: 5
+                    },
+                    1200: {
+                        items: 3
+                    }
+                }
+            });
+
+            owl1.on('mousewheel', '.owl-stage', function (e) {
+                if (e.originalEvent.deltaY > 0) {
+                    owl1.trigger('next.owl.carousel');
+                } else {
+                    owl1.trigger('prev.owl.carousel');
+                }
+                e.preventDefault();
+            });
+
+            owl2.owlCarousel({
+                rtl: true,
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            });
+
+            owl2.on('mousewheel', '.owl-stage', function (e) {
+                if (e.originalEvent.deltaY > 0) {
+                    owl2.trigger('next.owl.carousel');
+                } else {
+                    owl2.trigger('prev.owl.carousel');
+                }
+                e.preventDefault();
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
